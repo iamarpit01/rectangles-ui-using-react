@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import './assets/scss/variables';
+@import './assets/scss/colors';
+@import './assets/scss/buttons';
+@import './assets/scss/modal';
+@import './assets/scss/forms';
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+// SHAPE 
+.shape{
+    background-color: $shape;
+}
+
+// SHAPDE DETAILS BOX
+.shape-details{
+    background: $white;
+    border: 1px solid $border;
+    box-sizing: border-box;
+    box-shadow: $box-shadow;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    right: 32px;
+    bottom: 40px;
+
+    h5{
+        color: $secondary;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0;
+        padding: 20px 80px;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+
+        li{
+            list-style: none;
+            border-top: 1px solid $border;
+            color: $text;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 16px;
+        }
+    }
+}
+
+.shape-details__cta{
+    padding: 25px 32px 40px 25px;
+    border-top: 1px solid $border;
+}
+
+// ICONS
+.icon-xs{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.icon-close{
+    background-image: url(./assets/img/icon-close.png);
+    background-repeat: no-repeat;
+}
+
+
+// COLUMNS
+.col-1-2{
+    width: 48%;
+}
